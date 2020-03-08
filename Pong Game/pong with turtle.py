@@ -38,8 +38,8 @@ ball.shape("circle")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.4
-ball.dy = 0.4
+ball.dx = 0.2
+ball.dy = 0.2
 
 # Score
 player1_score = 0
