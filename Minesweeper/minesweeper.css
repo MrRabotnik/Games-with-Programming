@@ -1,0 +1,36 @@
+html{
+	height: 100%;
+	
+}
+body{
+	user-select: none;
+	height: 100%;
+	margin: 0;
+	background-color: green;
+	user-select:none;
+	cursor: default;
+}
+table img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+td{
+	text-align: center;
+	color:rgba(0,0,0,0); 
+	font-weight: 900;
+	background-size: 100% 100%;
+	user-select:none;
+}
+
+img[src='bomb.png']{
+	opacity: 0;
+}
+td:hover{
+	background-color: lightblue;
+	cursor: crosshair;
+}
+#asd {
+	display: inline !important;
+	width: 11%;
+}

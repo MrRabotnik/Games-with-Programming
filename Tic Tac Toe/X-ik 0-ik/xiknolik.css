@@ -1,0 +1,165 @@
+body,html{
+	margin:0;
+	height:100%;
+}
+*{
+	user-select:none;
+}
+#body{
+	background-image: url('Images/v.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#mytable{
+	margin: auto;
+	background-image: url('Images/paperp.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border:5px solid black;
+}
+#gamename{
+	width: 42%;
+	height: 20%;
+	position: absolute;
+	margin-left:50%;
+	margin-top: 15%;
+	transform: translate(-50%, -50%);
+	color: red;
+	background-image: url('Images/tictactoe.gif');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family:Verdana;
+	text-shadow: 4px 4px green;
+	border-radius: 20px 20px;
+
+}
+#clicktoplay{
+	bottom: 25%;
+	margin-left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	color: yellow;
+	font-family:Lucida Console;
+	text-shadow: 4px 4px black;
+}
+#back{
+	position: absolute;
+	left: 10px;
+	top:10px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	background-color: lightgrey;
+	border-radius: 50% 50%;
+
+}
+#back:hover{
+	left: 15px;
+	top:15px;
+	width: 70px;
+	height: 70px;
+	background-color: white;
+
+}
+#reset{
+	position: absolute;
+	right:10px;
+	top:10px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}
+#reset:hover{
+	right:15px;
+	top:15px;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+}
+#header{
+	cursor: pointer;
+	background-image: url('Images/logo.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#backX{
+	display: none;
+}
+#backO{
+	display: none;
+}
+#backdraw{
+	display: none;
+}
+#winnerX{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 50%;
+	transform: translate(-50%,-50%);
+	color: blue;
+	font-size: 100px;
+	font-family:Verdana;
+	text-shadow: 4px 4px red;
+}
+#winnerO{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 50%;
+	transform: translate(-50%,-50%);
+	color: red;
+	font-size: 100px;
+	font-family:Verdana;
+	text-shadow: 4px 4px blue;
+}
+#draw{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: red;
+	font-size: 100px;
+	font-family:Verdana;
+	text-shadow: 4px 4px blue;
+}
+#player1{
+height: 45px;
+width: 20%;
+position: absolute;
+top: 47%;
+left: 20px;
+font-size: 20px;
+text-align: center;
+background-color:green;
+color: white;
+border:none;
+}
+#player2{
+height: 45px;
+width: 20%;
+position: absolute;
+top: 47%;
+right: 20px;
+font-size: 20px;
+text-align: center;
+background-color:red; 
+color: white;
+border:none;
+}
+input::-webkit-input-placeholder {
+color: lightgrey !important;
+}
+#leftA{
+position: absolute;
+bottom:25%;
+left:15%;
+height: 50px;
+width: 50px;
+}
+#rightA{
+position: absolute;
+bottom:25%;
+right:20%;
+height: 20px;
+width: 50px;
+display: none;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>X-ik 0-Ik</title>
+	<link rel="stylesheet" type="text/css" href="xiknolik.css">
+	<link rel="icon" href="Images/favicon.ico">
+</head>
+<body id='body'>
+<div style="width: 100%;height: 100%;background-color:rgba(0,0,0,0.7);z-index: 20;position: absolute;" id="backX">
+<div id="winnerX">X WON</div>
+<p id='xwonm' style="background-color: green;color:white;z-index: 20;position: absolute;left:50%;top:55%;font-size: 30px;transform: translate(-50%,-50%);">Click Anywhere To Play</p>
+</div>
+<div style="width: 100%;height: 100%;background-color:rgba(0,0,0,0.7);z-index: 20;position: absolute;background-size: 100% 100%" id="backO">
+<div  id='winnerO'>O WON</div>
+<p id='owonm' style="background-color: green;color:white;z-index: 20;position: absolute;left:50%;top:55%;font-size: 30px;transform: translate(-50%,-50%);">Click Anywhere To Play</p>
+</div>
+
+<div style="width: 100%;height: 100%;background-color:rgba(0,0,0,0.7);z-index: 20;position: absolute;" id="backdraw">
+<div id="draw">Draw</div>
+<p id='drew' style="background-color: green;color:white;z-index: 20;position: absolute;left:50%;top:55%;font-size: 30px;transform: translate(-50%,-50%);">Click Anywhere To Play</p>
+</div>
+<!-- HEADER -->
+<div style="width: 100%;height: 100%;background-color: black;z-index: 15;position: absolute;" id='header'>
+	<div id='gamename' style="display: none;"></div>
+	<div id='clicktoplay' style="position: absolute;">Click Anywhere To Play</div>
+	<img src="Images/ankap.gif" style="position: absolute;right: 0;top:20px;width: 10%;height: 10%">
+	<img src="Images/giphy.gif" style="position: absolute;left: 0;top:20px;width: 10%;height: 10%">
+
+	<div style="width: 100%;text-align: center;position: absolute;bottom:5px;">
+
+				<a target="blank" href="https://www.facebook.com/sargis.terbalyants"><div style="width: 20%;border:1px solid lightgrey;height: 40px;float: left;background-color: white;margin-left: 50px;">
+					<img style="margin-left:auto;width: 20%;height: 40px;" src="Images/facebook.png">
+				</div></a>
+
+				<a target="blank" href="https://www.instagram.com/nindziau/"><div style="width: 20%;border:1px solid lightgrey;height: 40px;float: left;margin-left: 50px; background-color: white">
+					<img style="margin-left:auto;width: 20%;height: 40px;" src="Images/instagram.png">
+				</div></a>
+
+				<a target="blank" href="facebook.com"><div style="width: 20%;border:1px solid lightgrey;height: 40px;float: left;margin-left: 50px;background-color: white ">
+					<img style="margin-left:auto;width: 20%;height: 40px;" src="Images/twitter.png">
+				</div></a>
+
+				<a target="blank" href="facebook.com"><div style="width: 20%;border:1px solid lightgrey;height: 40px;float: left;background-color: white;margin-left: 50px;">
+					<img style="margin-left:auto;width: 20%;height: 40px;" src="Images/youtube.png">
+				</div></a>
+			</div>
+</div>
+<div><img id='back' style='display:inline;z-index: 10;position: absolute;' src="Images/back.png"> </div>
+<input id='player1' type="text" name="" placeholder="Enter Name">
+<input id='player2' type="text" name="" placeholder="Enter Name">
+<div id='leftA'><img src="Images/arrow-99-128.png"></div>
+<div id='rightA'><img src="Images/arrow-33-128.png"></div>
+<div><img id='reset' style='display:inline;z-index: 10;' src="Images/reset.png"> </div>
+<!-- TABLE -->
+<table border="2" cellpadding="0" cellspacing="0" id="mytable">
+	<tr>
+		<td id="i1" class="images" onclick="check('i1')"></td>
+		<td id="i2" class="images" onclick="check('i2')"></td>
+		<td id="i3" class="images" onclick="check('i3')"></td>
+	</tr>
+
+	<tr>
+		<td id="i4" class="images" onclick="check('i4')"></td>
+		<td id="i5" class="images" onclick="check('i5')"></td>
+		<td id="i6" class="images" onclick="check('i6')"></td>
+	</tr>
+
+	<tr>
+		<td id="i7" class="images" onclick="check('i7')"></td>
+		<td id="i8" class="images" onclick="check('i8')"></td>
+		<td id="i9" class="images" onclick="check('i9')"></td>
+	</tr>
+</table>
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="xiknolik.js"></script>
+</body>
+</html>
